@@ -16,7 +16,7 @@
 <script>
 export default {
 	name: 'v404',
-	beforeMount () {
+	created () {
 		const id = this.$cookies.get('userId');
 
 		if (!id) {

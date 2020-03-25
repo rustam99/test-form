@@ -53,6 +53,10 @@ export default {
 	name: 'vPosts',
 	created () {
 		this.$store.dispatch('posts/getPosts');
+
+		if (!parseInt(this.$route.params.page)) {
+			this.$router.replace('posts/1');
+		}
 	},
 	data () {
 		return {

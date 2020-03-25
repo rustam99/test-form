@@ -33,27 +33,13 @@
 
 <script>
 import { mapGetters } from 'vuex';
+import { checkUser } from '@/assets/js/functions';
 
 export default {
 	name: 'vEditPost',
-	beforeMount () {
-		const id = this.$cookies.get('userId');
-		let role;
-
-		if (!id) {
-			this.$router.replace('/posts/1');
-		} else {
-			this.$store.dispatch('users/getUserFromCookies', parseInt(id))
-				.then(() => {
-					role = this.$store.getters['users/role'];
-
-					if (role !== 'writer') {
-						this.$router.replace('/posts/1');
-					}
-				});
-		}
-	},
 	created () {
+		checkUser(this);
+
 		const id = parseInt(this.$route.params.id);
 		const post = this.$store.getters['posts/post'](id);
 

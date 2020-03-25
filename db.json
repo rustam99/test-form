@@ -15,36 +15,9 @@
   ],
   "posts": [
     {
-      "title": "AAAAAAAAAAAAAAAAAAAABBBBBB",
-      "description": "BBBBBBBBaaaaaaaaaaaaaaaaaaaaaavvvvvs",
-      "claps": 6,
-      "created": 18347,
-      "updated": 18347,
-      "userId": "1",
-      "id": 1
-    },
-    {
-      "title": "ZZZZZZZZZZZZZssdsdsd",
-      "description": "XXXXXXXXXXXXXXXXXXXXXXXXXXwwwww",
-      "claps": 2,
-      "created": 18347,
-      "updated": 18347,
-      "userId": "1",
-      "id": 2
-    },
-    {
-      "title": "WWWWWWWWWWWWWWWWWWW",
-      "description": "DDDDDDDDDDDDDDDDDDWWWWWWW",
-      "claps": 0,
-      "created": 18347,
-      "updated": 18347,
-      "userId": "1",
-      "id": 3
-    },
-    {
       "title": "sdsdsdsdsdsdsd",
       "description": "asdsasdasdwqewewqewewqewqe",
-      "claps": 2,
+      "claps": 3,
       "created": 18347,
       "updated": 18347,
       "userId": 1,
@@ -53,36 +26,27 @@
     {
       "title": "asdsdsdsdsdsdsdsdsdsdsdsd",
       "description": "wewewewewewewewewewewewewewe",
-      "claps": 0,
+      "claps": 1,
       "created": 18347,
-      "updated": 0,
+      "updated": 18347,
       "userId": 1,
       "id": 5
     },
     {
-      "title": "ssssssssssssssssssssssssssss",
-      "description": "sdddddddddddddddddddddddddddddd",
-      "claps": 0,
-      "created": 18347,
-      "updated": 0,
-      "userId": 1,
-      "id": 6
-    },
-    {
       "title": "ddddddddddddddddddddddddd",
       "description": "ddaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "claps": 0,
+      "claps": 1,
       "created": 18347,
-      "updated": 0,
+      "updated": 18347,
       "userId": 1,
       "id": 7
     },
     {
       "title": "wwwwwwwwwwwwwwwwwwwwwwww",
       "description": "ddddddddddddddddddddddddddddddd",
-      "claps": 0,
+      "claps": 1,
       "created": 18347,
-      "updated": 0,
+      "updated": 18347,
       "userId": 1,
       "id": 8
     },

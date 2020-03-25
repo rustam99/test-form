@@ -41,6 +41,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
+import { viewDate } from '@/assets/js/functions';
 
 export default {
 	name: 'vPost',
@@ -101,26 +102,7 @@ export default {
 			return this.role === 'reader';
 		},
 		date () {
-			const ten = Math.floor(this.days / 10 % 10);
-			let one = this.days % 10;
-
-			if (one > 1 && one < 5) {
-				one = one + ' дня';
-			} else if (one === 1) {
-				one = one + ' день';
-			} else if (one === 0) {
-				one = 0;
-			} else {
-				one = one + ' дней';
-			}
-
-			if (one === 0) {
-				return `${this.typeAction} сегодня`;
-			} else if (ten === 0) {
-				return `${this.typeAction} ${one} назад`;
-			} else {
-				return `${this.typeAction} ${ten}${one} назад`;
-			}
+			return viewDate(this);
 		}
 	}
 };

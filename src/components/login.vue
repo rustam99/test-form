@@ -36,7 +36,7 @@ import { mapActions } from 'vuex';
 
 export default {
 	name: 'vLogin',
-	beforeMount () {
+	created () {
 		const id = this.$cookies.get('userId');
 
 		if (id) {
