@@ -1,7 +1,7 @@
 # test-form
 
 ## Установка проекта
-### Первый способ delpoy проекта (необходим docker вместе с docker-compose)
+### Первый способ deploy проекта (необходим docker вместе с docker-compose)
 ```
 docker-compose up -d
 ```
