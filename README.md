@@ -1,24 +1,20 @@
 # test-form
 
-## Project setup
+## Установка проекта
+### Первый способ delpoy проекта (необходим docker вместе с docker-compose)
+```
+docker-compose up -d
+```
+### Второй способ (стандартный vue-cli разворот, необходимо два окна командной строки)
+
+#### В первом окне (развернет client на порте 8080)
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+#### Во втором окне (развернет api на порте 3000)
 ```
-npm run build
+json-server /server/data/db.json
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
